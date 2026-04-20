@@ -1,0 +1,31 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder de projeto Spring Boot</title>
+  <desc id="desc">Imagem generica para projeto backend com Spring Boot e JPA.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.55" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)" />
+  <circle cx="205" cy="165" r="120" fill="#22d3ee" fill-opacity="0.2" />
+  <circle cx="990" cy="540" r="170" fill="#38bdf8" fill-opacity="0.16" />
+
+  <rect x="170" y="160" width="860" height="355" rx="26" fill="#0b2148" fill-opacity="0.66" stroke="#93c5fd" stroke-opacity="0.34" />
+  <rect x="210" y="214" width="380" height="62" rx="12" fill="url(#card)" />
+  <rect x="210" y="302" width="770" height="32" rx="8" fill="#bfdbfe" fill-opacity="0.7" />
+  <rect x="210" y="350" width="650" height="32" rx="8" fill="#bfdbfe" fill-opacity="0.5" />
+  <rect x="210" y="398" width="460" height="32" rx="8" fill="#bfdbfe" fill-opacity="0.38" />
+
+  <text x="236" y="256" font-size="40" font-family="Sora, Arial, sans-serif" fill="#f8fafc" font-weight="700">
+    Spring Boot + JPA
+  </text>
+  <text x="170" y="585" font-size="28" font-family="Sora, Arial, sans-serif" fill="#dbeafe" fill-opacity="0.92">
+    Projeto backend - imagem generica
+  </text>
+</svg>

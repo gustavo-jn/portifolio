@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Luis Gustavo</title>
+  <meta
+    name="description"
+    content="Portfólio de Luis Gustavo, estudante de ADS com foco em desenvolvimento backend (Java, Spring Boot, APIs REST e SQL), buscando vaga de estágio/júnior."
+  />
+  <meta property="og:title" content="Luis Gustavo | Desenvolvedor Backend em formação" />
+  <meta
+    property="og:description"
+    content="Projetos e skills de Luis Gustavo para oportunidades de estágio/júnior em desenvolvimento backend."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="img/avatar.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Luis Gustavo | Desenvolvedor Backend em formação" />
+  <meta
+    name="twitter:description"
+    content="Portfólio com projetos em Java, Spring Boot, APIs REST, PHP e SQL."
+  />
+  <meta name="twitter:image" content="img/avatar.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+    <span class="blob blob-c"></span>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#home" class="logo">Luis Gustavo</a>
+
+      <nav class="menu" id="primaryMenu" aria-label="Navegação principal">
+        <a href="#home">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#formation">Formação</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+
+      <div class="nav-controls">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+          <i class="fa-regular fa-moon"></i>
+        </button>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Abrir menu"
+          aria-controls="primaryMenu"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section hero" id="home">
+      <div class="container hero-grid">
+        <article class="hero-copy reveal">
+          <h1>Olá! Me chamo Luís Gustavo.</h1>
+          <p class="lead">
+            Sou estudante de ADS no IFSP, com foco em desenvolvimento backend e busca por oportunidade
+            de estágio/júnior para evoluir tecnicamente e contribuir com soluções de software.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-briefcase"></i> Ver projetos
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-envelope"></i> Falar comigo
+            </a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/gustavo-jn" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/luis-gustavojn" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </article>
+
+        <aside class="hero-visual reveal delay-1">
+          <div class="avatar-wrap">
+            <img src="img/avatar.png" alt="Avatar de Luis Gustavo" class="avatar" />
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Sobre</p>
+          <h2>Sobre mim</h2>
+        </div>
+
+        <article class="about-card reveal delay-1">
+          <p>
+            Estudante de Análise e Desenvolvimento de Sistemas no IFSP, com foco em desenvolvimento backend.
+            Tenho experiência prática em projetos com Java, Spring Boot, PHP, MySQL e modelagem de banco de
+            dados SQL. Desenvolvo aplicações web, APIs REST e sistemas com integração entre front-end, backend
+            e banco de dados. Busco oportunidade de estágio ou posição júnior para evoluir tecnicamente e
+            contribuir com soluções de software.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section formation" id="formation">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Perfil</p>
+          <h2>Formação e objetivo profissional</h2>
+        </div>
+
+        <div class="formation-grid">
+          <article class="info-card reveal delay-1">
+            <h3>Formação</h3>
+            <p>
+              <strong>Análise e Desenvolvimento de Sistemas (ADS) - IFSP</strong>
+            </p>
+            <p>
+              Formação superior em andamento, com foco em fundamentos de engenharia de software,
+              desenvolvimento web e banco de dados.
+            </p>
+          </article>
+
+          <article class="info-card reveal delay-2">
+            <h3>Objetivo Profissional</h3>
+            <p>
+              Atuar como desenvolvedor em posição de estágio/júnior, 
+              contribuindo com implementação de APIs, manutenção de sistemas e evolução contínua do produto.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Minhas principais skills de desenvolvimento</h2>
+          <p class="section-sub">
+            Tecnologias aplicadas em projetos acadêmicos e práticos para consolidar base técnica de backend.
+          </p>
+        </div>
+
+        <div class="skills-groups">
+          <article class="skill-group reveal delay-1">
+            <h3 class="skill-group-title">
+              <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              Front-end
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-chip">
+                <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                <span>HTML5</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                <span>CSS3</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-brands fa-js" aria-hidden="true"></i>
+                <span>JavaScript</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal delay-2">
+            <h3 class="skill-group-title">
+              <i class="fa-solid fa-server" aria-hidden="true"></i>
+              Back-end
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-chip">
+                <i class="fa-brands fa-java" aria-hidden="true"></i>
+                <span>Java</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+                <span>Spring Boot</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                <span>Spring Security</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+                <span>APIs REST</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-brands fa-php" aria-hidden="true"></i>
+                <span>PHP</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal delay-3">
+            <h3 class="skill-group-title">
+              <i class="fa-solid fa-database" aria-hidden="true"></i>
+              Banco de Dados e Persistência
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-chip">
+                <i class="fa-solid fa-database" aria-hidden="true"></i>
+                <span>JPA / Hibernate</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-solid fa-server" aria-hidden="true"></i>
+                <span>PostgreSQL</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-solid fa-server" aria-hidden="true"></i>
+                <span>MySQL</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal delay-1">
+            <h3 class="skill-group-title">
+              <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+              Ferramentas
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-chip">
+                <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+                <span>Git</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                <span>GitHub</span>
+              </li>
+              <li class="skill-chip">
+                <i class="fa-brands fa-linux" aria-hidden="true"></i>
+                <span>Linux</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projetos</p>
+          <h2>Projetos backend e APIs em destaque</h2>
+          <p class="section-sub">
+            Cada projeto mostra stack utilizada, meu papel e as principais entregas técnicas.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal delay-1">
+            <img src="img/comprasPet.png" alt="Preview do projeto Compras Pet" class="project-thumb" />
+            <p class="project-tag">E-commerce Pet</p>
+            <h3>Compras Pet</h3>
+            <p>
+              Aplicação web de e-commerce pet com backend Spring Boot (API REST + JWT)
+              e frontend estático em HTML, CSS e JavaScript.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Stack:</strong> Java, Spring Boot, JWT, HTML, CSS e JavaScript</li>
+              <li><strong>Papel:</strong> Desenvolvimento de backend e integração com frontend</li>
+              <li><strong>Entregas:</strong> Estrutura de API REST, autenticação e fluxo básico de e-commerce</li>
+            </ul>
+            <a href="https://github.com/gustavo-jn/compraspet" target="_blank" rel="noopener noreferrer" class="project-link">
+              Ver no GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card reveal delay-2">
+            <img src="img/hotelParaiso.png" alt="Preview do projeto Sistema de Hotel" class="project-thumb" />
+            <p class="project-tag">Sistema Web</p>
+            <h3>Sistema de Hotel</h3>
+            <p>
+              Sistema web para gestão básica de hotel, com cadastro de usuários, login/autenticação,
+              navegação entre páginas e estrutura modular integrada a banco de dados SQL.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Stack:</strong> PHP, SQL, HTML, CSS e JavaScript</li>
+              <li><strong>Papel:</strong> Desenvolvimento de funcionalidades e organização do sistema</li>
+              <li><strong>Entregas:</strong> Cadastro, login e fluxos principais de gestão hoteleira</li>
+            </ul>
+            <a href="https://github.com/gustavo-jn/Hotel.git" target="_blank" rel="noopener noreferrer" class="project-link">
+              Ver no GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card reveal delay-3">
+            <img src="img/project-placeholder.svg" alt="Preview generica do projeto Workshop Spring Boot JPA" class="project-thumb" />
+            <p class="project-tag">Spring Boot + JPA</p>
+            <h3>Workshop Spring Boot 4 JPA</h3>
+            <p>
+              API REST desenvolvida com Spring Boot e JPA/Hibernate, com foco em modelagem de entidades,
+              camada de serviços/repositórios e operações CRUD em banco relacional.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Stack:</strong> Java, Spring Boot, JPA/Hibernate e SQL</li>
+              <li><strong>Papel:</strong> Implementação de backend e modelagem de domínio</li>
+              <li><strong>Entregas:</strong> Operações CRUD, serviços, repositórios e persistência relacional</li>
+            </ul>
+            <a href="https://github.com/gustavo-jn/workshop-springboot4-jpa.git" target="_blank" rel="noopener noreferrer" class="project-link">
+              Ver no GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <img src="img/ifTechHub.png" alt="Preview do projeto IFTechHub startup academica" class="project-thumb" />
+            <p class="project-tag">Projeto de Extensao</p>
+            <h3>IFTechHub Startup</h3>
+            <p>
+              Projeto de extensão da faculdade para criação de startup em grupo, com desenvolvimento
+              de site institucional, definição de serviços e colaboração em equipe (atuação como Scrum Master).
+            </p>
+            <ul class="project-meta">
+              <li><strong>Stack:</strong> HTML, CSS, JavaScript e ferramentas de organização ágil</li>
+              <li><strong>Papel:</strong> Scrum Master e desenvolvimento em equipe</li>
+              <li><strong>Entregas:</strong> Site institucional, proposta de startup e organização do fluxo do time</li>
+            </ul>
+            <a href="https://iftechhub.simplifica.gru.br" target="_blank" rel="noopener noreferrer" class="project-link">
+              Ver projeto online <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2>Contato para vaga de estágio/júnior</h2>
+          <p>
+            Disponível para processos seletivos e entrevistas técnicas.
+            Posso contribuir com desenvolvimento backend e evolução contínua de aplicações.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:luisgustavo.email10@gmail.com" class="btn btn-primary">
+            <i class="fa-regular fa-paper-plane"></i> luisgustavo.email10@gmail.com
+          </a>
+          <a href="curriculo-estagio.pdf" class="btn btn-secondary" download>
+            <i class="fa-solid fa-file-pdf"></i> Baixar currículo (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Luis Gustavo - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
