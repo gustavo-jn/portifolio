@@ -577,6 +577,10 @@ img {
   font-weight: 600;
 }
 
+.project-link + .project-link {
+  margin-left: 16px;
+}
+
 .contact {
   padding-top: 78px;
 }
